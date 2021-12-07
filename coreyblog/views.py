@@ -39,7 +39,6 @@ class PostDetilView(DetailView):
     template_name = 'blog/post_detail.html'
 
 
-
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
     template_name = 'blog/post_form.html'
